@@ -1,0 +1,73 @@
+.home-page h1 {
+    font-size: 3rem; /* Aumenta el tamaño del texto */
+    color: #111111; /* Cambia el color (puedes usar otro código de color) */
+    text-align: center; /* Centra el título */
+    margin-bottom: 30px; /* Espaciado debajo del título */
+    margin-top: 60px; /*Espaciado sobre el titulo*/
+    font-family: 'Times New Roman', Times, serif;
+  }
+
+.home-page h2 {
+ font-family: 'Times New Roman', Times, serif;
+ color:#111111;
+ text-align: center;
+ font-size: 25px;
+
+}
+ 
+
+
+  
+  
+
+  
+  
+/* Estilado común para los InfoBoxes */
+.info-box {
+    background-color: rgba(255, 255, 255, 0.6); /* Fondo con transparencia */
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: justify;
+    margin: 10px;
+    padding: 10px;
+    color:#111111;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+  /* Estilo para el primer cuadrado con tamaño personalizado */
+  .info-box-1 {
+    width: 1000px; 
+    height: 200px;
+  }
+  
+  /* Estilo para el segundo cuadrado con tamaño personalizado */
+  .info-box-2 {     
+   
+    width: 500px;
+    height: 200px;
+  }
+  
+  /* Estilo para el tercer cuadrado con tamaño personalizado */
+  .info-box-3 {
+    width: 500px;
+    height: 200px;
+  }
+  
+  /* Flexbox para distribuirlos horizontalmente */
+  .first-info-container,
+  .other-info-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  /* Ajustar la apariencia del contenedor principal */
+  .home-page {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  
