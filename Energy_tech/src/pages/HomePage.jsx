@@ -50,6 +50,30 @@ const HomePage = () => {
           className="info-box-3"
         />
       </div>
+      <div className="box3">
+        <InfoBox
+        title="Energía Solar"
+        description={
+          <>
+          <p className='info-subtitle'>Que es la energia Solar?</p>
+          <p>La energía solar es una fuente renovable que aprovecha la radiación del sol para generar electricidad o calor. Se obtiene principalmente mediante paneles solares fotovoltaicos, que convierten la luz solar en energía eléctrica, y sistemas térmicos que generan calor para aplicaciones domésticas o industriales. Es una opción limpia y sostenible que ayuda a reducir las emisiones de gases de efecto invernadero.</p>
+          </>
+        }
+        className="info-box-4"
+        />
+      </div>
+      <div className="Conjunto2">
+        <InfoBox
+        title=""
+        description=""
+        className="info-box-5"
+        />
+        <InfoBox
+       title=""
+       description=""
+       className="info-box-6"
+       />
+      </div>
     </div>
   );
 };
