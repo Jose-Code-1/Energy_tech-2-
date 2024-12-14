@@ -28,7 +28,7 @@
   height: 50px; /* Tamaño inicial del círculo */
   border-radius: 50%; /* Hace que el elemento sea un círculo perfecto */
   background-color: #09cd92; /* Color de fondo verde */
-  color: white; /* Texto blanco */
+  color: rgb(22, 21, 21); /* Texto blanco */
   display: flex; /* Centra el contenido en el círculo */
   justify-content: center; /* Centrado horizontal */
   align-items: center; /* Centrado vertical */
@@ -68,7 +68,7 @@
 
 /* Caja principal de la ventana de diálogo */
 .dialog-box {
-  background: white; /* Fondo blanco para el área de interacción */
+  background: rgb(30, 29, 29); /* Fondo blanco para el área de interacción */
   padding: 20px; /* Espaciado interno */
   border-radius: 8px; /* Bordes redondeados */
   min-width: 300px; /* Ancho mínimo para el área interactiva */
@@ -87,7 +87,7 @@
 /* Botón para cerrar la ventana de diálogo */
 .dialog-box button {
   background-color: #6200EA; /* Color morado para destacar el botón */
-  color: white; /* Texto blanco */
+  color: rgb(14, 13, 13); /* Texto blanco */
   padding: 10px 15px; /* Espaciado interno */
   border: none; /* Sin bordes */
   border-radius: 4px; /* Bordes redondeados */

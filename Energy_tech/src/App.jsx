@@ -7,6 +7,9 @@ import Header from './components/Navbar/Navbar'; // Importa el Header que acabam
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import DataPage from './pages/DataPage';
 import HomePage from './pages/HomePage';
+import GraficaPage from './pages/GraficaPage';
+
+import Calculadora from './Calculadora';
 
 
 function App() {
@@ -23,6 +26,7 @@ function App() {
           <Routes>
             <Route path='/' element={<HomePage />}/>
             <Route path='/datos' element={<DataPage />}/>
+            <Route path='/graficas' element={<GraficaPage />}/>
           </Routes>
         </div>
       </div>
@@ -51,7 +55,9 @@ function App() {
         <div className="dialog-overlay">
           <div className="dialog-box">
             <h3>Encuesta</h3>
-            <input type="text" placeholder="Ingresa un dato..." />
+            
+
+            <Calculadora />
             <button onClick={() => setIsDialogOpen(false)}>Cerrar</button>
           </div>
         </div>

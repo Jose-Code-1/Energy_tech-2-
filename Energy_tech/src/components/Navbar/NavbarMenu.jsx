@@ -11,6 +11,8 @@ const NavbarMenu = () => {
       <NavbarItem text="Inicio" link="/" />
       {/* Elemento del menú para la página de datos */}
       <NavbarItem text="Datos" link="/datos" />
+      {/*Elemento del menú para la página de Graficas*/}
+      <NavbarItem text="Graficas" link="/graficas" />
     </ul>
   );
 };
